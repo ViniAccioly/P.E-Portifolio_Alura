@@ -186,3 +186,47 @@ margin: 5em 0 ;
     margin: 3em 0;
 }
 
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none; 
+              
+    }
+
+    .img_alura{
+        width: 50vw;
+    }
+
+    .conteudo_principal{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 1em ;
+        text-align: center;
+    }
+
+    .conteudo_terceiro{
+        margin: 2em 2em;
+        padding: 0;
+    }
+
+    .imagem_secundario{
+        width: 50vw;
+    }
+
+
+    .dispositivo_lista{
+        display: block;
+    }
+
+    .rodape_lista{
+        display: block;
+    }
+
+
+
+
+
+
+}
